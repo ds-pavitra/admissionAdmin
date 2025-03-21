@@ -106,6 +106,10 @@ import SubjectMaster from "../pages/Masters/subjectMaster";
 import GroupMaster from "../pages/Masters/groupMaster";
 import DocumentMaster from "../pages/Masters/documentMaster";
 
+//Userlist
+
+import UserList from "../pages/ManageUsers/userList";
+
 const authProtectedRoutes = [
 
 	// Tables
@@ -199,6 +203,8 @@ const authProtectedRoutes = [
 	{ path: "/group-master", component: <GroupMaster /> },
 	{ path: "/document-master", component: <DocumentMaster /> },
 
+	//Userlist
+	{ path: "/userlist", component: <UserList /> },
 
 
 	// this route should be at the end of all other routes

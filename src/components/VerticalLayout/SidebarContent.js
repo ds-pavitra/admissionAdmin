@@ -110,6 +110,13 @@ class SidebarContent extends Component {
             </li>
 
             <li>
+              <Link to="/userlist" className="waves-effect">
+                <i className="ri-user-2-line"></i>
+                <span className="ms-1">{this.props.t('Users')}</span>
+              </Link>
+            </li>
+
+            {/* <li>
               <Link to="/#" className="has-arrow waves-effect">
                 <i className="ri-store-2-line"></i>
                 <span className="ms-1">{this.props.t('Masters')}</span>
@@ -120,7 +127,7 @@ class SidebarContent extends Component {
                 <li><Link to="/group-master">{this.props.t('Groups')}</Link></li>
                 <li><Link to="/document-master">{this.props.t('Documents')}</Link></li>
               </ul>
-            </li>
+            </li> */}
 
             {/* <li>
               <Link to="/admission-form" className=" waves-effect">
